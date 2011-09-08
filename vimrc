@@ -147,3 +147,5 @@ set showcmd
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+set gfn=Monaco:h12
