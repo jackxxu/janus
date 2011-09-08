@@ -228,3 +228,5 @@ call s:DefineCommand("mkdir", "Mkdir")
 if filereadable(expand("~/.gvimrc.local"))
   source ~/.gvimrc.local
 endif
+
+set gfn=Monaco:h12
