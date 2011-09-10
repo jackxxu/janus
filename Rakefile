@@ -155,7 +155,9 @@ vim_plugin_task "vim-coffee-script","git://github.com/kchmck/vim-coffee-script.g
 vim_plugin_task "syntastic",        "git://github.com/scrooloose/syntastic.git"
 vim_plugin_task "puppet",           "git://github.com/ajf/puppet-vim.git"
 vim_plugin_task "scala",            "git://github.com/bdd/vim-scala.git"
-vim_plugin_task "vim_ruby_debugger",         "git://github.com/astashov/vim-ruby-debugger.git"
+vim_plugin_task "ruby_debugger",    "git://github.com/astashov/vim-ruby-debugger.git"
+vim_plugin_task "capslock",         "git://github.com/vim-scripts/capslock.vim.git"
+
 
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
 #  sh "gem install github-markup redcarpet"
