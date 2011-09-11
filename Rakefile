@@ -159,6 +159,7 @@ vim_plugin_task "ruby_debugger",    "git://github.com/astashov/vim-ruby-debugger
 vim_plugin_task "capslock",         "git://github.com/vim-scripts/capslock.vim.git"
 vim_plugin_task "ruby_runner",      "git://github.com/Maher4Ever/vim-ruby-runner.git"
 vim_plugin_task "bundler",          "git://github.com/tpope/vim-bundler.git"
+vim_plugin_task "vcscommand",       "git://github.com/vim-scripts/vcscommand.vim.git"
 
 
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
