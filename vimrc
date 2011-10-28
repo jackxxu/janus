@@ -149,3 +149,4 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 
 set gfn=Monaco:h12
+set whichwrap+=<,>,[,]
