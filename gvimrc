@@ -232,3 +232,7 @@ endif
 set gfn=Monaco:h12
 set whichwrap+=<,>,[,]
 
+nmap <D-[> <<
+nmap <D-]> >>
+vmap <D-[> <gv
+vmap <D-]> >gv
