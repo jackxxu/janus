@@ -230,3 +230,5 @@ if filereadable(expand("~/.gvimrc.local"))
 endif
 
 set gfn=Monaco:h12
+set whichwrap+=<,>,[,]
+
