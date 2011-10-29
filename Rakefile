@@ -161,7 +161,8 @@ vim_plugin_task "ruby_runner",      "git://github.com/Maher4Ever/vim-ruby-runner
 vim_plugin_task "bundler",          "git://github.com/tpope/vim-bundler.git"
 vim_plugin_task "vcscommand",       "git://github.com/vim-scripts/vcscommand.vim.git"
 vim_plugin_task "tail_bundle",      "git://github.com/vim-scripts/Tail-Bundle.git"
-vim_plugin_task "tailf",      "git://github.com/vim-scripts/Tailf.git"
+vim_plugin_task "tailf",            "git://github.com/vim-scripts/Tailf.git"
+vim_plugin_task "rails_debugger",   "git://github.com/astashov/vim-ruby-debugger.git"
 
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
 #  sh "gem install github-markup redcarpet"
