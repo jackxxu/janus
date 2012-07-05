@@ -176,7 +176,7 @@ vim_plugin_task "command_t",        "http://s3.wincent.com/command-t/releases/co
     elsif File.exists?("/usr/bin/ruby") && false # prefer system rubies
       sh "/usr/bin/ruby extconf.rb"
     elsif `rvm > /dev/null 2>&1` && $?.exitstatus == 0
-      sh "rvm system ruby extconf.rb"
+      #sh "rvm system ruby extconf.rb"
       sh "rvm ruby extconf.rb"      
     end
     sh "make clean && make"
