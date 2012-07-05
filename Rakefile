@@ -171,13 +171,12 @@ vim_plugin_task "vim-rvm",          "git://github.com/tpope/vim-rvm.git"
 
 vim_plugin_task "command_t",        "http://s3.wincent.com/command-t/releases/command-t-1.2.1.vba" do
   Dir.chdir "ruby/command-t" do
-    if File.exists?("/usr/bin/ruby1.8") && false # prefer 1.8 on *.deb systems
+    if File.exists?("/usr/bin/ruby1.8") # prefer 1.8 on *.deb systems
       sh "/usr/bin/ruby1.8 extconf.rb"
-    elsif File.exists?("/usr/bin/ruby") && false # prefer system rubies
+    elsif File.exists?("/usr/bin/ruby") # prefer system rubies
       sh "/usr/bin/ruby extconf.rb"
     elsif `rvm > /dev/null 2>&1` && $?.exitstatus == 0
-      #sh "rvm system ruby extconf.rb"
-      sh "rvm ruby extconf.rb"      
+      sh "rvm system ruby extconf.rb"
     end
     sh "make clean && make"
   end
